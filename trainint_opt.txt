@@ -1,0 +1,636 @@
+training with:                                         
+{'booster': 'dart', 'colsample_bytree': 0.8, 'eta': 0.25, 'eval_metric': 'auc', 'gamma': 0.7000000000000001, 'max_depth': 11, 'min_child_weight': 10.0, 'n_estimators': 1000, 'objective': 'binary:logistic', 'silent': 1, 'subsample': 0.8, 'tree_method': 'gpu_hist'}
+[0]	train-auc:0.673793	eval-auc:0.644543               
+
+Multiple eval metrics have been passed: 'eval-auc' will be used for early stopping.
+
+
+Will train until eval-auc hasn't improved in 30 rounds.
+
+[50]	train-auc:0.768855	eval-auc:0.660853              
+
+[100]	train-auc:0.814394	eval-auc:0.661244             
+
+Stopping. Best iteration:                              
+[99]	train-auc:0.813709	eval-auc:0.661295
+
+
+AUC Score                                              
+0.6612953275664978                                     
+training with:                                                                      
+{'booster': 'dart', 'colsample_bytree': 0.8500000000000001, 'eta': 0.25, 'eval_metric': 'auc', 'gamma': 0.7000000000000001, 'max_depth': 13, 'min_child_weight': 9.0, 'n_estimators': 1000, 'objective': 'binary:logistic', 'silent': 1, 'subsample': 0.8, 'tree_method': 'gpu_hist'}
+[0]	train-auc:0.688425	eval-auc:0.634767                                            
+
+Multiple eval metrics have been passed: 'eval-auc' will be used for early stopping. 
+
+
+Will train until eval-auc hasn't improved in 30 rounds.                             
+
+[50]	train-auc:0.830249	eval-auc:0.659106                                           
+
+Stopping. Best iteration:                                                           
+[69]	train-auc:0.85669	eval-auc:0.660205
+
+
+AUC Score                                                                           
+0.660205493491024                                                                   
+training with:                                                                      
+{'booster': 'dart', 'colsample_bytree': 0.55, 'eta': 0.4, 'eval_metric': 'auc', 'gamma': 0.65, 'max_depth': 5, 'min_child_weight': 4.0, 'n_estimators': 1000, 'objective': 'binary:logistic', 'silent': 1, 'subsample': 0.9500000000000001, 'tree_method': 'gpu_hist'}
+[0]	train-auc:0.628473	eval-auc:0.626824                                            
+
+Multiple eval metrics have been passed: 'eval-auc' will be used for early stopping. 
+
+
+Will train until eval-auc hasn't improved in 30 rounds.                             
+
+[50]	train-auc:0.67765	eval-auc:0.664607                                            
+
+[100]	train-auc:0.688191	eval-auc:0.665163                                          
+
+Stopping. Best iteration:                                                           
+[105]	train-auc:0.689124	eval-auc:0.665356
+
+
+AUC Score                                                                           
+0.6653558871390042                                                                  
+training with:                                                                      
+{'booster': 'dart', 'colsample_bytree': 0.65, 'eta': 0.35000000000000003, 'eval_metric': 'auc', 'gamma': 0.75, 'max_depth': 4, 'min_child_weight': 6.0, 'n_estimators': 1000, 'objective': 'binary:logistic', 'silent': 1, 'subsample': 0.7000000000000001, 'tree_method': 'gpu_hist'}
+[0]	train-auc:0.634735	eval-auc:0.633715                                            
+
+Multiple eval metrics have been passed: 'eval-auc' will be used for early stopping. 
+
+
+Will train until eval-auc hasn't improved in 30 rounds.                             
+
+[50]	train-auc:0.670389	eval-auc:0.663811                                           
+
+[100]	train-auc:0.675375	eval-auc:0.664101                                          
+
+[150]	train-auc:0.679753	eval-auc:0.664235                                          
+
+[200]	train-auc:0.683475	eval-auc:0.664247                                          
+
+Stopping. Best iteration:                                                           
+[172]	train-auc:0.68132	eval-auc:0.664406
+
+
+AUC Score                                                                           
+0.6644064095327897                                                                  
+training with:                                                                      
+{'booster': 'dart', 'colsample_bytree': 0.7000000000000001, 'eta': 0.2, 'eval_metric': 'auc', 'gamma': 0.5, 'max_depth': 12, 'min_child_weight': 7.0, 'n_estimators': 1000, 'objective': 'binary:logistic', 'silent': 1, 'subsample': 0.65, 'tree_method': 'gpu_hist'}
+[0]	train-auc:0.668243	eval-auc:0.631633                                            
+
+Multiple eval metrics have been passed: 'eval-auc' will be used for early stopping. 
+
+
+Will train until eval-auc hasn't improved in 30 rounds.                             
+
+[50]	train-auc:0.794774	eval-auc:0.66106                                            
+
+[100]	train-auc:0.84291	eval-auc:0.661665                                           
+
+Stopping. Best iteration:                                                           
+[94]	train-auc:0.836697	eval-auc:0.662024
+
+
+AUC Score                                                                           
+0.6620240119941102                                                                  
+training with:                                                                      
+{'booster': 'dart', 'colsample_bytree': 0.8500000000000001, 'eta': 0.25, 'eval_metric': 'auc', 'gamma': 0.8, 'max_depth': 11, 'min_child_weight': 2.0, 'n_estimators': 1000, 'objective': 'binary:logistic', 'silent': 1, 'subsample': 0.9, 'tree_method': 'gpu_hist'}
+[0]	train-auc:0.681471	eval-auc:0.64527                                             
+
+Multiple eval metrics have been passed: 'eval-auc' will be used for early stopping. 
+
+
+Will train until eval-auc hasn't improved in 30 rounds.                             
+
+[50]	train-auc:0.814065	eval-auc:0.662694                                           
+
+[100]	train-auc:0.877143	eval-auc:0.665136                                          
+
+[150]	train-auc:0.915789	eval-auc:0.667075                                          
+
+[200]	train-auc:0.944294	eval-auc:0.668368                                          
+
+[250]	train-auc:0.964304	eval-auc:0.66963                                           
+
+[300]	train-auc:0.976308	eval-auc:0.670882                                          
+
+[350]	train-auc:0.983991	eval-auc:0.671375                                          
+
+[400]	train-auc:0.990073	eval-auc:0.672857                                          
+
+[450]	train-auc:0.993496	eval-auc:0.673574                                          
+
+[500]	train-auc:0.996015	eval-auc:0.674675                                          
+
+[550]	train-auc:0.997466	eval-auc:0.675634                                          
+
+[600]	train-auc:0.998407	eval-auc:0.676355                                            
+
+[650]	train-auc:0.998935	eval-auc:0.677126                                            
+
+[700]	train-auc:0.999294	eval-auc:0.677945                                            
+
+[750]	train-auc:0.999507	eval-auc:0.678326                                            
+
+[800]	train-auc:0.999653	eval-auc:0.678745                                            
+
+[850]	train-auc:0.999759	eval-auc:0.679325                                            
+
+[900]	train-auc:0.999823	eval-auc:0.680064                                            
+
+[950]	train-auc:0.999863	eval-auc:0.680438                                            
+
+[999]	train-auc:0.999896	eval-auc:0.680922                                            
+
+AUC Score                                                                             
+0.6809393240117468                                                                    
+training with:                                                                           
+{'booster': 'dart', 'colsample_bytree': 0.55, 'eta': 0.25, 'eval_metric': 'auc', 'gamma': 0.8500000000000001, 'max_depth': 10, 'min_child_weight': 5.0, 'n_estimators': 1000, 'objective': 'binary:logistic', 'silent': 1, 'subsample': 0.8500000000000001, 'tree_method': 'gpu_hist'}
+[0]	train-auc:0.644257	eval-auc:0.625522                                                 
+
+Multiple eval metrics have been passed: 'eval-auc' will be used for early stopping.      
+
+
+Will train until eval-auc hasn't improved in 30 rounds.                                  
+
+[50]	train-auc:0.765108	eval-auc:0.663337                                                
+
+[100]	train-auc:0.808029	eval-auc:0.664264                                               
+
+[150]	train-auc:0.840371	eval-auc:0.664795                                               
+
+[200]	train-auc:0.864948	eval-auc:0.665318                                               
+
+[250]	train-auc:0.887453	eval-auc:0.665866                                               
+
+Stopping. Best iteration:                                                                
+[255]	train-auc:0.889383	eval-auc:0.666052
+
+
+AUC Score                                                                                
+0.6660523372855529                                                                       
+training with:                                                                           
+{'booster': 'dart', 'colsample_bytree': 0.5, 'eta': 0.45, 'eval_metric': 'auc', 'gamma': 0.8, 'max_depth': 9, 'min_child_weight': 7.0, 'n_estimators': 1000, 'objective': 'binary:logistic', 'silent': 1, 'subsample': 0.5, 'tree_method': 'gpu_hist'}
+[0]	train-auc:0.634925	eval-auc:0.62383                                                  
+
+Multiple eval metrics have been passed: 'eval-auc' will be used for early stopping.      
+
+
+Will train until eval-auc hasn't improved in 30 rounds.                                  
+
+Stopping. Best iteration:                                                                
+[4]	train-auc:0.676562	eval-auc:0.654631
+
+
+AUC Score                                                                                
+0.6546311530514749                                                                       
+training with:                                                                           
+{'booster': 'dart', 'colsample_bytree': 0.9, 'eta': 0.4, 'eval_metric': 'auc', 'gamma': 0.75, 'max_depth': 9, 'min_child_weight': 8.0, 'n_estimators': 1000, 'objective': 'binary:logistic', 'silent': 1, 'subsample': 0.8, 'tree_method': 'gpu_hist'}
+[0]	train-auc:0.664648	eval-auc:0.652234                                                 
+
+Multiple eval metrics have been passed: 'eval-auc' will be used for early stopping.      
+
+
+Will train until eval-auc hasn't improved in 30 rounds.                                  
+
+[50]	train-auc:0.740938	eval-auc:0.658266                                                
+
+Stopping. Best iteration:                                                                
+[20]	train-auc:0.707503	eval-auc:0.65999
+
+
+AUC Score                                                                                
+0.6599898337623357                                                                       
+training with:                                                                           
+{'booster': 'dart', 'colsample_bytree': 0.8, 'eta': 0.25, 'eval_metric': 'auc', 'gamma': 0.9, 'max_depth': 4, 'min_child_weight': 2.0, 'n_estimators': 1000, 'objective': 'binary:logistic', 'silent': 1, 'subsample': 0.7000000000000001, 'tree_method': 'gpu_hist'}
+[0]	train-auc:0.637741	eval-auc:0.636994                                                 
+
+Multiple eval metrics have been passed: 'eval-auc' will be used for early stopping.      
+
+
+Will train until eval-auc hasn't improved in 30 rounds.                                  
+
+[50]	train-auc:0.66897	eval-auc:0.6643                                                   
+
+[100]	train-auc:0.673579	eval-auc:0.664975                                               
+
+[150]	train-auc:0.677755	eval-auc:0.665434                                               
+
+[200]	train-auc:0.681131	eval-auc:0.66589                                                
+
+[250]	train-auc:0.684395	eval-auc:0.665746                                               
+
+Stopping. Best iteration:                                                                
+[229]	train-auc:0.683032	eval-auc:0.665962
+
+
+AUC Score                                                                                
+0.6659624154855767                                                                       
+training with:                                                                           
+{'booster': 'dart', 'colsample_bytree': 0.75, 'eta': 0.15000000000000002, 'eval_metric': 'auc', 'gamma': 0.65, 'max_depth': 8, 'min_child_weight': 10.0, 'n_estimators': 1000, 'objective': 'binary:logistic', 'silent': 1, 'subsample': 0.7000000000000001, 'tree_method': 'gpu_hist'}
+[0]	train-auc:0.652157	eval-auc:0.645294                                                 
+
+Multiple eval metrics have been passed: 'eval-auc' will be used for early stopping.      
+
+
+Will train until eval-auc hasn't improved in 30 rounds.                                  
+
+[50]	train-auc:0.696735	eval-auc:0.665889                                                
+
+[100]	train-auc:0.713236	eval-auc:0.667131                                               
+
+[150]	train-auc:0.728403	eval-auc:0.66756                                                
+
+Stopping. Best iteration:                                                                
+[124]	train-auc:0.720333	eval-auc:0.667622
+
+
+AUC Score                                                                                
+0.6676217692108297                                                                       
+training with:                                                                           
+{'booster': 'dart', 'colsample_bytree': 1.0, 'eta': 0.15000000000000002, 'eval_metric': 'auc', 'gamma': 0.7000000000000001, 'max_depth': 8, 'min_child_weight': 5.0, 'n_estimators': 1000, 'objective': 'binary:logistic', 'silent': 1, 'subsample': 0.7000000000000001, 'tree_method': 'gpu_hist'}
+[0]	train-auc:0.659494	eval-auc:0.651605                                                 
+
+Multiple eval metrics have been passed: 'eval-auc' will be used for early stopping.      
+
+
+Will train until eval-auc hasn't improved in 30 rounds.                                  
+
+[50]	train-auc:0.699297	eval-auc:0.665804                                                
+
+[100]	train-auc:0.718783	eval-auc:0.666616                                               
+
+[150]	train-auc:0.735135	eval-auc:0.667293                                               
+
+[200]	train-auc:0.750613	eval-auc:0.667214                                               
+
+[250]	train-auc:0.767442	eval-auc:0.667849                                               
+
+[300]	train-auc:0.781387	eval-auc:0.668241                                               
+
+[350]	train-auc:0.794466	eval-auc:0.668211                                               
+
+Stopping. Best iteration:                                                                
+[338]	train-auc:0.791427	eval-auc:0.66841
+
+
+AUC Score                                                                                
+0.6684099164394819                                                                       
+training with:                                                                           
+{'booster': 'dart', 'colsample_bytree': 0.65, 'eta': 0.45, 'eval_metric': 'auc', 'gamma': 0.8, 'max_depth': 13, 'min_child_weight': 10.0, 'n_estimators': 1000, 'objective': 'binary:logistic', 'silent': 1, 'subsample': 0.7000000000000001, 'tree_method': 'gpu_hist'}
+[0]	train-auc:0.673259	eval-auc:0.627006                                                 
+
+Multiple eval metrics have been passed: 'eval-auc' will be used for early stopping.      
+
+
+Will train until eval-auc hasn't improved in 30 rounds.                                  
+
+Stopping. Best iteration:                                                                
+[15]	train-auc:0.769297	eval-auc:0.645418
+
+
+AUC Score                                                                                
+0.6454178227746957                                                                       
+training with:                                                                           
+{'booster': 'dart', 'colsample_bytree': 0.55, 'eta': 0.25, 'eval_metric': 'auc', 'gamma': 0.8, 'max_depth': 5, 'min_child_weight': 6.0, 'n_estimators': 1000, 'objective': 'binary:logistic', 'silent': 1, 'subsample': 0.55, 'tree_method': 'gpu_hist'}
+[0]	train-auc:0.627252	eval-auc:0.626031                                                 
+
+Multiple eval metrics have been passed: 'eval-auc' will be used for early stopping.      
+
+
+Will train until eval-auc hasn't improved in 30 rounds.                                  
+
+[50]	train-auc:0.672874	eval-auc:0.664264                                                
+
+Stopping. Best iteration:                                                                
+[54]	train-auc:0.673533	eval-auc:0.664371
+
+
+AUC Score                                                                                
+0.6643708340032266                                                                       
+training with:                                                                           
+{'booster': 'dart', 'colsample_bytree': 0.75, 'eta': 0.30000000000000004, 'eval_metric': 'auc', 'gamma': 0.6000000000000001, 'max_depth': 6, 'min_child_weight': 3.0, 'n_estimators': 1000, 'objective': 'binary:logistic', 'silent': 1, 'subsample': 1.0, 'tree_method': 'gpu_hist'}
+[0]	train-auc:0.645901	eval-auc:0.644912                                                
+
+Multiple eval metrics have been passed: 'eval-auc' will be used for early stopping.     
+
+
+Will train until eval-auc hasn't improved in 30 rounds.                                 
+
+[50]	train-auc:0.683912	eval-auc:0.664865                                               
+
+[100]	train-auc:0.697593	eval-auc:0.665515                                              
+
+[150]	train-auc:0.710282	eval-auc:0.665496                                              
+
+Stopping. Best iteration:                                                               
+[121]	train-auc:0.702409	eval-auc:0.665605
+
+
+AUC Score                                                                               
+0.6656046677884744                                                                      
+training with:                                                                          
+{'booster': 'dart', 'colsample_bytree': 1.0, 'eta': 0.15000000000000002, 'eval_metric': 'auc', 'gamma': 0.75, 'max_depth': 7, 'min_child_weight': 1.0, 'n_estimators': 1000, 'objective': 'binary:logistic', 'silent': 1, 'subsample': 0.75, 'tree_method': 'gpu_hist'}
+[0]	train-auc:0.655388	eval-auc:0.65161                                                 
+
+Multiple eval metrics have been passed: 'eval-auc' will be used for early stopping.     
+
+
+Will train until eval-auc hasn't improved in 30 rounds.                                 
+
+[50]	train-auc:0.687974	eval-auc:0.665723                                               
+
+[100]	train-auc:0.703609	eval-auc:0.666545                                              
+
+[150]	train-auc:0.718017	eval-auc:0.666865                                              
+
+[200]	train-auc:0.730431	eval-auc:0.667384                                              
+
+[250]	train-auc:0.742804	eval-auc:0.66776                                               
+
+[300]	train-auc:0.754154	eval-auc:0.66823                                               
+
+[350]	train-auc:0.76529	eval-auc:0.668569                                               
+
+Stopping. Best iteration:                                                               
+[349]	train-auc:0.765013	eval-auc:0.668615
+
+
+AUC Score                                                                               
+0.6686145751784439                                                                      
+training with:                                                                          
+{'booster': 'dart', 'colsample_bytree': 1.0, 'eta': 0.4, 'eval_metric': 'auc', 'gamma': 0.8, 'max_depth': 10, 'min_child_weight': 3.0, 'n_estimators': 1000, 'objective': 'binary:logistic', 'silent': 1, 'subsample': 0.8, 'tree_method': 'gpu_hist'}
+[0]	train-auc:0.670834	eval-auc:0.648482                                                
+
+Multiple eval metrics have been passed: 'eval-auc' will be used for early stopping.     
+
+
+Will train until eval-auc hasn't improved in 30 rounds.                                 
+
+Stopping. Best iteration:                                                               
+[8]	train-auc:0.711858	eval-auc:0.656783
+
+
+AUC Score                                                                               
+0.656783489164031                                                                       
+training with:                                                                          
+{'booster': 'dart', 'colsample_bytree': 0.8500000000000001, 'eta': 0.1, 'eval_metric': 'auc', 'gamma': 0.9, 'max_depth': 9, 'min_child_weight': 10.0, 'n_estimators': 1000, 'objective': 'binary:logistic', 'silent': 1, 'subsample': 1.0, 'tree_method': 'gpu_hist'}
+[0]	train-auc:0.666813	eval-auc:0.653812                                                
+
+Multiple eval metrics have been passed: 'eval-auc' will be used for early stopping.     
+
+
+Will train until eval-auc hasn't improved in 30 rounds.                                 
+
+[50]	train-auc:0.707884	eval-auc:0.666543                                               
+
+[100]	train-auc:0.7237	eval-auc:0.668536                                                
+
+[150]	train-auc:0.735581	eval-auc:0.669617                                              
+
+[200]	train-auc:0.747415	eval-auc:0.670492                                              
+
+[250]	train-auc:0.759855	eval-auc:0.671266                                              
+
+[300]	train-auc:0.768464	eval-auc:0.671791                                              
+
+[350]	train-auc:0.780357	eval-auc:0.672402                                              
+
+[400]	train-auc:0.790247	eval-auc:0.673009                                              
+
+[450]	train-auc:0.798268	eval-auc:0.673385                                              
+
+[500]	train-auc:0.807621	eval-auc:0.674092                                              
+
+[550]	train-auc:0.814886	eval-auc:0.674506                                              
+
+[600]	train-auc:0.82086	eval-auc:0.674682                                               
+
+[650]	train-auc:0.82831	eval-auc:0.675006                                               
+
+[700]	train-auc:0.835578	eval-auc:0.675341                                              
+
+[750]	train-auc:0.841854	eval-auc:0.675524                                              
+
+[800]	train-auc:0.848492	eval-auc:0.675853                                              
+
+[850]	train-auc:0.853893	eval-auc:0.676042                                              
+
+[900]	train-auc:0.858639	eval-auc:0.67631                                               
+
+[950]	train-auc:0.866516	eval-auc:0.676779                                              
+
+Stopping. Best iteration:                                                               
+[967]	train-auc:0.867988	eval-auc:0.676905
+
+
+AUC Score                                                                               
+0.6769053662549993                                                                      
+training with:                                                                            
+{'booster': 'dart', 'colsample_bytree': 0.8500000000000001, 'eta': 0.45, 'eval_metric': 'auc', 'gamma': 0.9500000000000001, 'max_depth': 12, 'min_child_weight': 3.0, 'n_estimators': 1000, 'objective': 'binary:logistic', 'silent': 1, 'subsample': 0.65, 'tree_method': 'gpu_hist'}
+[0]	train-auc:0.679803	eval-auc:0.634328                                                  
+
+Multiple eval metrics have been passed: 'eval-auc' will be used for early stopping.       
+
+
+Will train until eval-auc hasn't improved in 30 rounds.                                   
+
+Stopping. Best iteration:                                                                 
+[8]	train-auc:0.747072	eval-auc:0.645249
+
+
+AUC Score                                                                                 
+0.6452485042836145                                                                        
+training with:                                                                            
+{'booster': 'dart', 'colsample_bytree': 0.8500000000000001, 'eta': 0.1, 'eval_metric': 'auc', 'gamma': 0.75, 'max_depth': 12, 'min_child_weight': 4.0, 'n_estimators': 1000, 'objective': 'binary:logistic', 'silent': 1, 'subsample': 0.8, 'tree_method': 'gpu_hist'}
+[0]	train-auc:0.685075	eval-auc:0.638625                                                  
+
+Multiple eval metrics have been passed: 'eval-auc' will be used for early stopping.       
+
+
+Will train until eval-auc hasn't improved in 30 rounds.                                   
+
+[50]	train-auc:0.797418	eval-auc:0.66749                                                  
+
+[100]	train-auc:0.834097	eval-auc:0.670776                                                
+
+[150]	train-auc:0.867302	eval-auc:0.673354                                                
+
+[200]	train-auc:0.89496	eval-auc:0.675204                                                 
+
+[250]	train-auc:0.915128	eval-auc:0.676462                                                
+
+[300]	train-auc:0.931844	eval-auc:0.677808                                                
+
+[350]	train-auc:0.947103	eval-auc:0.679232                                                
+
+[400]	train-auc:0.957153	eval-auc:0.680043                                                
+
+[450]	train-auc:0.966575	eval-auc:0.681033                                                
+
+[500]	train-auc:0.974127	eval-auc:0.681908                                                
+
+[550]	train-auc:0.980076	eval-auc:0.682547                                                
+
+[600]	train-auc:0.984484	eval-auc:0.683093                                                
+
+[650]	train-auc:0.988013	eval-auc:0.683829                                                
+
+[700]	train-auc:0.990638	eval-auc:0.684393                                                
+
+[750]	train-auc:0.99264	eval-auc:0.684779                                                 
+
+[800]	train-auc:0.994165	eval-auc:0.685248                                                
+
+Stopping. Best iteration:                                                                 
+[806]	train-auc:0.994307	eval-auc:0.685361
+
+
+AUC Score                                                                                 
+0.6853607094176714                                                                        
+training with:                                                                            
+{'booster': 'dart', 'colsample_bytree': 0.9500000000000001, 'eta': 0.1, 'eval_metric': 'auc', 'gamma': 0.55, 'max_depth': 11, 'min_child_weight': 1.0, 'n_estimators': 1000, 'objective': 'binary:logistic', 'silent': 1, 'subsample': 0.9, 'tree_method': 'gpu_hist'}
+[0]	train-auc:0.682728	eval-auc:0.644634                                                  
+
+Multiple eval metrics have been passed: 'eval-auc' will be used for early stopping.       
+
+
+Will train until eval-auc hasn't improved in 30 rounds.                                   
+
+[50]	train-auc:0.783092	eval-auc:0.666785                                                 
+
+[100]	train-auc:0.82507	eval-auc:0.670696                                                 
+
+[150]	train-auc:0.858109	eval-auc:0.673522                                                
+
+[200]	train-auc:0.886295	eval-auc:0.675477                                                
+
+[250]	train-auc:0.910293	eval-auc:0.677583                                                
+
+[300]	train-auc:0.927997	eval-auc:0.678722                                                
+
+[350]	train-auc:0.941593	eval-auc:0.680102                                                
+
+[400]	train-auc:0.953337	eval-auc:0.681584                                                
+
+[450]	train-auc:0.961899	eval-auc:0.682659                                                
+
+[500]	train-auc:0.969317	eval-auc:0.683376                                                
+
+[550]	train-auc:0.975437	eval-auc:0.684281                                                
+
+[600]	train-auc:0.98107	eval-auc:0.684618                                                 
+
+[650]	train-auc:0.985077	eval-auc:0.685489                                                
+
+[700]	train-auc:0.988135	eval-auc:0.686167                                                
+
+[750]	train-auc:0.990678	eval-auc:0.686616                                                
+
+[800]	train-auc:0.992695	eval-auc:0.687205                                                
+
+[850]	train-auc:0.994191	eval-auc:0.687681                                                
+
+[900]	train-auc:0.99546	eval-auc:0.688113                                                 
+
+[950]	train-auc:0.996446	eval-auc:0.688689                                                 
+
+[999]	train-auc:0.997175	eval-auc:0.689081                                                 
+
+AUC Score                                                                                  
+0.6890910321234468                                                                         
+training with:                                                                             
+{'booster': 'dart', 'colsample_bytree': 0.9500000000000001, 'eta': 0.15000000000000002, 'eval_metric': 'auc', 'gamma': 0.5, 'max_depth': 11, 'min_child_weight': 1.0, 'n_estimators': 1000, 'objective': 'binary:logistic', 'silent': 1, 'subsample': 0.9, 'tree_method': 'gpu_hist'}
+[0]	train-auc:0.682728	eval-auc:0.644634                                                   
+
+Multiple eval metrics have been passed: 'eval-auc' will be used for early stopping.        
+
+
+Will train until eval-auc hasn't improved in 30 rounds.                                    
+
+[50]	train-auc:0.802724	eval-auc:0.666063                                                  
+
+[100]	train-auc:0.85614	eval-auc:0.670153                                                  
+
+[150]	train-auc:0.894445	eval-auc:0.672504                                                 
+
+[200]	train-auc:0.924414	eval-auc:0.6749                                                   
+
+[250]	train-auc:0.945447	eval-auc:0.676376                                                 
+
+[300]	train-auc:0.959794	eval-auc:0.677071                                                 
+
+[350]	train-auc:0.97139	eval-auc:0.677811                                                  
+
+[400]	train-auc:0.979467	eval-auc:0.679143                                                 
+
+[450]	train-auc:0.985601	eval-auc:0.679854                                                 
+
+[500]	train-auc:0.989669	eval-auc:0.680551                                                 
+
+[550]	train-auc:0.992627	eval-auc:0.681295                                                 
+
+[600]	train-auc:0.994784	eval-auc:0.681806                                                 
+
+[650]	train-auc:0.996195	eval-auc:0.682645                                                 
+
+[700]	train-auc:0.997378	eval-auc:0.683287                                                 
+
+[750]	train-auc:0.998058	eval-auc:0.684069                                                 
+
+[800]	train-auc:0.998576	eval-auc:0.684461                                                 
+
+[850]	train-auc:0.998906	eval-auc:0.684865                                                 
+
+[900]	train-auc:0.999186	eval-auc:0.685412                                                 
+
+[950]	train-auc:0.999386	eval-auc:0.685981                                                 
+
+[999]	train-auc:0.999542	eval-auc:0.686548                                                 
+
+AUC Score                                                                                  
+0.6865475778162528                                                                         
+training with:                                                                             
+{'booster': 'dart', 'colsample_bytree': 0.9500000000000001, 'eta': 0.1, 'eval_metric': 'auc', 'gamma': 0.5, 'max_depth': 11, 'min_child_weight': 1.0, 'n_estimators': 1000, 'objective': 'binary:logistic', 'silent': 1, 'subsample': 0.9, 'tree_method': 'gpu_hist'}
+[0]	train-auc:0.682728	eval-auc:0.644634                                                   
+
+Multiple eval metrics have been passed: 'eval-auc' will be used for early stopping.        
+
+
+Will train until eval-auc hasn't improved in 30 rounds.                                    
+
+[50]	train-auc:0.783092	eval-auc:0.666785                                                  
+
+[100]	train-auc:0.82507	eval-auc:0.670697                                                  
+
+[150]	train-auc:0.858109	eval-auc:0.673522                                                 
+
+[200]	train-auc:0.886366	eval-auc:0.67587                                                  
+
+[250]	train-auc:0.907062	eval-auc:0.67739                                                  
+
+[300]	train-auc:0.925342	eval-auc:0.679141                                                 
+
+[350]	train-auc:0.939398	eval-auc:0.680369                                                 
+
+[400]	train-auc:0.951555	eval-auc:0.681599                                                 
+
+[450]	train-auc:0.960955	eval-auc:0.682732                                                 
+
+[500]	train-auc:0.969421	eval-auc:0.683499                                                 
+
+[550]	train-auc:0.975772	eval-auc:0.684333                                                 
+
+[600]	train-auc:0.981032	eval-auc:0.684675                                                 
+
+[650]	train-auc:0.985162	eval-auc:0.685517                                                 
+
+[700]	train-auc:0.988034	eval-auc:0.686033                                                 
+
+[750]	train-auc:0.990617	eval-auc:0.686487                                                 
+
+[800]	train-auc:0.992725	eval-auc:0.686982                                                 
+
+ 22%|██▏       | 22/100 [15:33:31<153:14:05, 7072.38s/trial, best loss: 0.3109089678765532]
